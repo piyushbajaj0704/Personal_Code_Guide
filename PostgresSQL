@@ -1,19 +1,33 @@
 which psql
 ps aux | grep postgres
-ps -f -u postgres : should list postgres processes
+
+This should list postgres processes:
+ps -f -u postgres
 
 sudo -u postgres /usr/pgsql-9.5/bin/postgres -D /var/lib/pgsql/9.5/data
+
 systemctl status postgresql-9.5.service
 Just did: systemctl status
-postgresql-9.5.service - PostgreSQL 9.5 database server
-   Loaded: loaded (/usr/lib/systemd/system/postgresql-9.5.service; enabled)
-           ├─26873 /usr/pgsql-9.5/bin/postgres -D /var/lib/pgsql/9.5/data
 
-Configuring postgresql.conf : /var/lib/pgsql/9.5/data/postgresql.conf
+Location of postgresql-9.5.service:
+/usr/lib/systemd/system/postgresql-9.5.service
 
-This should list the PostgreSQL processes in your environment:  sudo lsof -n -u postgres |grep LISTEN or sudo netstat -ltnp | grep postgres
+Configuring postgresql.conf: 
+/var/lib/pgsql/9.5/data/postgresql.conf
 
-If is configured to listen and handle request in port 5432: cat /etc/services | grep 5432
-Check whether the service is active or not : service postgresql status
-Checking whether a specific port assigned for service relates to PostgreSQL Database Server is actively listening or not by executing the following command :  netstat -tulpn | grep 5432
-Run Postgres DB terminal: sudo -u postgres psql
+This should list the PostgreSQL processes in your environment:  
+sudo lsof -n -u postgres | grep LISTEN OR
+sudo netstat -ltnp | grep postgres
+
+If is configured to listen and handle request in port 5432: 
+cat /etc/services | grep 5432
+
+Check whether the service is active or not : 
+service postgresql status
+
+Checking whether a specific port assigned for service relates to PostgreSQL Database Server is actively listening 
+or not by executing the following command :  
+netstat -tulpn | grep 5432
+
+Run Postgres DB terminal: 
+sudo -u postgres psql
