@@ -1,0 +1,2 @@
+Set<String> ban = new HashSet<>(Arrays.asList(banned));  // banned -> String
+
