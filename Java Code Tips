@@ -6,6 +6,4 @@ for (String w : words) if (!ban.contains(w)) count.put(w, count.getOrDefault(w, 
 
 return Collections.max(count.entrySet(), Map.Entry.comparingByValue()).getKey();
 
-
-
 String target = String.valueOf(chs);
