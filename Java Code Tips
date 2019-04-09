@@ -9,3 +9,7 @@ return Collections.max(count.entrySet(), Map.Entry.comparingByValue()).getKey();
 String target = String.valueOf(chs);
 
 for (char c : s.toCharArray())
+
+new StringBuilder(str).reverse().toString();
+sb.append();
+
