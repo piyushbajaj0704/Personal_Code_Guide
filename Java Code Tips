@@ -13,4 +13,6 @@ for (char c : s.toCharArray())
 new StringBuilder(str).reverse().toString();
 sb.append();
 
-String[] arr = s.trim().split("\\s+");
+String[] arr = s.trim().split("\\s+"); 
+
+
