@@ -14,5 +14,3 @@ new StringBuilder(str).reverse().toString();
 sb.append();
 
 String[] arr = s.trim().split("\\s+"); 
-
-
