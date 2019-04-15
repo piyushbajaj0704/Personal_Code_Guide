@@ -10,6 +10,8 @@ String target = String.valueOf(chs);
 
 for (char c : s.toCharArray())
 
+int x = Character.getNumericValue(digits.charAt(i));
+
 new StringBuilder(str).reverse().toString();
 sb.append();
 
