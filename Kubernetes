@@ -1,6 +1,5 @@
 Best blog:  https://gist.github.com/kevin-smets/b91a34cea662d0c523968472a81788f7
 
-
 Minikube does'nt work over Proxy or VPN by default:
 https://github.com/kubernetes/minikube/issues/3889
 https://github.com/kubernetes/minikube/blob/master/docs/http_proxy.md
