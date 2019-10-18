@@ -1,10 +1,10 @@
-GNU Midnight Commander – mc: 
+### GNU Midnight Commander – mc: 
 >> brew install mc
 >> mc
 https://jonathansblog.co.uk/mc-for-mac-osx
  
  
-Cool Cmds:
+### Cool Cmds:
 > sudo !!
 > tig status
 > tig log
@@ -13,7 +13,18 @@ Cool Cmds:
 > history | grep XYZ
 Some long running cmd; say “Done”
 
-Git Basics:
+### Mac:
+Move screens: `Ctrl + Left/Right Arrows`
+
+### Terminal:
+Move to start of line: `Ctrl + a`
+Move to start of line: `Ctrl + e`
+Move one char back: `Ctrl + b`
+Move one char forward: `Ctrl + f`
+Move one word back/forward: `Option + Left/Right Arrows`
+
+
+### Git Basics:
 > git push
 > git pull
 > git checkout -b [name_of_your_new_branch]
@@ -36,7 +47,7 @@ Sync a branch with master:
 > git checkout branch
 > git merge master
    
-Kubernetes:
+### Kubernetes:
 > minikube start
 > kubectl get nodes
 > docker --version           
@@ -45,7 +56,7 @@ Kubernetes:
 > minikube version     
 > kubectl version --client
 
-Postgres General Commands:
+### Postgres General Commands:
 > which psql
 > ps aux | grep postgres
 > ps -f -u postgres : should list postgres processes
