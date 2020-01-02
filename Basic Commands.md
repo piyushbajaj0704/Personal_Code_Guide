@@ -27,6 +27,7 @@ Move screens: `Ctrl + Left/Right Arrows`
 - Search as you type: `Ctrl + r` and type the search term; Repeat `Ctrl + r` to loop through results.
 - Search the last remembered search term. Ctrl + r twice.
 - End the search at current history entry. Ctrl + j
+- Copy the text to search. Press CMD + G and iterate through the copied text in logs/terminal.
 - Cancel the search and restore original line. Ctrl + g
 
 
